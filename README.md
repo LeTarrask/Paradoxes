@@ -2,4 +2,4 @@
 
 Playing with animation in SwiftUI.
 
-![Screenshot](/screentshots/01.png)
+![Screenshot](/screenshots/01.png)
