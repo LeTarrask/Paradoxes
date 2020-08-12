@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79E7998B24E3EF3500223AF8 /* ParadoxesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E7998A24E3EF3500223AF8 /* ParadoxesApp.swift */; };
+		79E7998D24E3EF3500223AF8 /* LineFlipper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E7998C24E3EF3500223AF8 /* LineFlipper.swift */; };
+		79E7998F24E3EF3800223AF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79E7998E24E3EF3800223AF8 /* Assets.xcassets */; };
+		79E7999224E3EF3800223AF8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79E7999124E3EF3800223AF8 /* Preview Assets.xcassets */; };
+		79E7999D24E3EF3800223AF8 /* ParadoxesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E7999C24E3EF3800223AF8 /* ParadoxesTests.swift */; };
+		79E799A824E3EF3800223AF8 /* ParadoxesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E799A724E3EF3800223AF8 /* ParadoxesUITests.swift */; };
+		79E799B624E4245300223AF8 /* ColumnFlipper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E799B524E4245300223AF8 /* ColumnFlipper.swift */; };
+		79E799B824E4246C00223AF8 /* Circulito.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E799B724E4246C00223AF8 /* Circulito.swift */; };
+		79E799BA24E4252300223AF8 /* CircleFlipper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E799B924E4252300223AF8 /* CircleFlipper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79E7999924E3EF3800223AF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79E7997F24E3EF3400223AF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79E7998624E3EF3500223AF8;
+			remoteInfo = Paradoxes;
+		};
+		79E799A424E3EF3800223AF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79E7997F24E3EF3400223AF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79E7998624E3EF3500223AF8;
+			remoteInfo = Paradoxes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79E7998724E3EF3500223AF8 /* Paradoxes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paradoxes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E7998A24E3EF3500223AF8 /* ParadoxesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParadoxesApp.swift; sourceTree = "<group>"; };
+		79E7998C24E3EF3500223AF8 /* LineFlipper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineFlipper.swift; sourceTree = "<group>"; };
+		79E7998E24E3EF3800223AF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79E7999124E3EF3800223AF8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		79E7999324E3EF3800223AF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79E7999824E3EF3800223AF8 /* ParadoxesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParadoxesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E7999C24E3EF3800223AF8 /* ParadoxesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParadoxesTests.swift; sourceTree = "<group>"; };
+		79E7999E24E3EF3800223AF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79E799A324E3EF3800223AF8 /* ParadoxesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParadoxesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E799A724E3EF3800223AF8 /* ParadoxesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParadoxesUITests.swift; sourceTree = "<group>"; };
+		79E799A924E3EF3800223AF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79E799B524E4245300223AF8 /* ColumnFlipper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnFlipper.swift; sourceTree = "<group>"; };
+		79E799B724E4246C00223AF8 /* Circulito.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circulito.swift; sourceTree = "<group>"; };
+		79E799B924E4252300223AF8 /* CircleFlipper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleFlipper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79E7998424E3EF3500223AF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E7999524E3EF3800223AF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E799A024E3EF3800223AF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79E7997E24E3EF3400223AF8 = {
+			isa = PBXGroup;
+			children = (
+				79E7998924E3EF3500223AF8 /* Paradoxes */,
+				79E7999B24E3EF3800223AF8 /* ParadoxesTests */,
+				79E799A624E3EF3800223AF8 /* ParadoxesUITests */,
+				79E7998824E3EF3500223AF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79E7998824E3EF3500223AF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79E7998724E3EF3500223AF8 /* Paradoxes.app */,
+				79E7999824E3EF3800223AF8 /* ParadoxesTests.xctest */,
+				79E799A324E3EF3800223AF8 /* ParadoxesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79E7998924E3EF3500223AF8 /* Paradoxes */ = {
+			isa = PBXGroup;
+			children = (
+				79E7998A24E3EF3500223AF8 /* ParadoxesApp.swift */,
+				79E799B924E4252300223AF8 /* CircleFlipper.swift */,
+				79E7998C24E3EF3500223AF8 /* LineFlipper.swift */,
+				79E799B524E4245300223AF8 /* ColumnFlipper.swift */,
+				79E799B724E4246C00223AF8 /* Circulito.swift */,
+				79E7998E24E3EF3800223AF8 /* Assets.xcassets */,
+				79E7999324E3EF3800223AF8 /* Info.plist */,
+				79E7999024E3EF3800223AF8 /* Preview Content */,
+			);
+			path = Paradoxes;
+			sourceTree = "<group>";
+		};
+		79E7999024E3EF3800223AF8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				79E7999124E3EF3800223AF8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		79E7999B24E3EF3800223AF8 /* ParadoxesTests */ = {
+			isa = PBXGroup;
+			children = (
+				79E7999C24E3EF3800223AF8 /* ParadoxesTests.swift */,
+				79E7999E24E3EF3800223AF8 /* Info.plist */,
+			);
+			path = ParadoxesTests;
+			sourceTree = "<group>";
+		};
+		79E799A624E3EF3800223AF8 /* ParadoxesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				79E799A724E3EF3800223AF8 /* ParadoxesUITests.swift */,
+				79E799A924E3EF3800223AF8 /* Info.plist */,
+			);
+			path = ParadoxesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79E7998624E3EF3500223AF8 /* Paradoxes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79E799AC24E3EF3900223AF8 /* Build configuration list for PBXNativeTarget "Paradoxes" */;
+			buildPhases = (
+				79E7998324E3EF3500223AF8 /* Sources */,
+				79E7998424E3EF3500223AF8 /* Frameworks */,
+				79E7998524E3EF3500223AF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Paradoxes;
+			productName = Paradoxes;
+			productReference = 79E7998724E3EF3500223AF8 /* Paradoxes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79E7999724E3EF3800223AF8 /* ParadoxesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79E799AF24E3EF3900223AF8 /* Build configuration list for PBXNativeTarget "ParadoxesTests" */;
+			buildPhases = (
+				79E7999424E3EF3800223AF8 /* Sources */,
+				79E7999524E3EF3800223AF8 /* Frameworks */,
+				79E7999624E3EF3800223AF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79E7999A24E3EF3800223AF8 /* PBXTargetDependency */,
+			);
+			name = ParadoxesTests;
+			productName = ParadoxesTests;
+			productReference = 79E7999824E3EF3800223AF8 /* ParadoxesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79E799A224E3EF3800223AF8 /* ParadoxesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79E799B224E3EF3900223AF8 /* Build configuration list for PBXNativeTarget "ParadoxesUITests" */;
+			buildPhases = (
+				79E7999F24E3EF3800223AF8 /* Sources */,
+				79E799A024E3EF3800223AF8 /* Frameworks */,
+				79E799A124E3EF3800223AF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79E799A524E3EF3800223AF8 /* PBXTargetDependency */,
+			);
+			name = ParadoxesUITests;
+			productName = ParadoxesUITests;
+			productReference = 79E799A324E3EF3800223AF8 /* ParadoxesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79E7997F24E3EF3400223AF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					79E7998624E3EF3500223AF8 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					79E7999724E3EF3800223AF8 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 79E7998624E3EF3500223AF8;
+					};
+					79E799A224E3EF3800223AF8 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 79E7998624E3EF3500223AF8;
+					};
+				};
+			};
+			buildConfigurationList = 79E7998224E3EF3500223AF8 /* Build configuration list for PBXProject "Paradoxes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79E7997E24E3EF3400223AF8;
+			productRefGroup = 79E7998824E3EF3500223AF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79E7998624E3EF3500223AF8 /* Paradoxes */,
+				79E7999724E3EF3800223AF8 /* ParadoxesTests */,
+				79E799A224E3EF3800223AF8 /* ParadoxesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79E7998524E3EF3500223AF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E7999224E3EF3800223AF8 /* Preview Assets.xcassets in Resources */,
+				79E7998F24E3EF3800223AF8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E7999624E3EF3800223AF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E799A124E3EF3800223AF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79E7998324E3EF3500223AF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E799B824E4246C00223AF8 /* Circulito.swift in Sources */,
+				79E799BA24E4252300223AF8 /* CircleFlipper.swift in Sources */,
+				79E7998D24E3EF3500223AF8 /* LineFlipper.swift in Sources */,
+				79E7998B24E3EF3500223AF8 /* ParadoxesApp.swift in Sources */,
+				79E799B624E4245300223AF8 /* ColumnFlipper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E7999424E3EF3800223AF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E7999D24E3EF3800223AF8 /* ParadoxesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E7999F24E3EF3800223AF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E799A824E3EF3800223AF8 /* ParadoxesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79E7999A24E3EF3800223AF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79E7998624E3EF3500223AF8 /* Paradoxes */;
+			targetProxy = 79E7999924E3EF3800223AF8 /* PBXContainerItemProxy */;
+		};
+		79E799A524E3EF3800223AF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79E7998624E3EF3500223AF8 /* Paradoxes */;
+			targetProxy = 79E799A424E3EF3800223AF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		79E799AA24E3EF3800223AF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79E799AB24E3EF3900223AF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79E799AD24E3EF3900223AF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Paradoxes/Preview Content\"";
+				DEVELOPMENT_TEAM = L2BC5TCSR5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Paradoxes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.garageminfinita.Paradoxes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79E799AE24E3EF3900223AF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Paradoxes/Preview Content\"";
+				DEVELOPMENT_TEAM = L2BC5TCSR5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Paradoxes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.garageminfinita.Paradoxes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		79E799B024E3EF3900223AF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2BC5TCSR5;
+				INFOPLIST_FILE = ParadoxesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.garageminfinita.ParadoxesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paradoxes.app/Paradoxes";
+			};
+			name = Debug;
+		};
+		79E799B124E3EF3900223AF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2BC5TCSR5;
+				INFOPLIST_FILE = ParadoxesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.garageminfinita.ParadoxesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paradoxes.app/Paradoxes";
+			};
+			name = Release;
+		};
+		79E799B324E3EF3900223AF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2BC5TCSR5;
+				INFOPLIST_FILE = ParadoxesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.garageminfinita.ParadoxesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Paradoxes;
+			};
+			name = Debug;
+		};
+		79E799B424E3EF3900223AF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2BC5TCSR5;
+				INFOPLIST_FILE = ParadoxesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.garageminfinita.ParadoxesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Paradoxes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79E7998224E3EF3500223AF8 /* Build configuration list for PBXProject "Paradoxes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E799AA24E3EF3800223AF8 /* Debug */,
+				79E799AB24E3EF3900223AF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79E799AC24E3EF3900223AF8 /* Build configuration list for PBXNativeTarget "Paradoxes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E799AD24E3EF3900223AF8 /* Debug */,
+				79E799AE24E3EF3900223AF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79E799AF24E3EF3900223AF8 /* Build configuration list for PBXNativeTarget "ParadoxesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E799B024E3EF3900223AF8 /* Debug */,
+				79E799B124E3EF3900223AF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79E799B224E3EF3900223AF8 /* Build configuration list for PBXNativeTarget "ParadoxesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E799B324E3EF3900223AF8 /* Debug */,
+				79E799B424E3EF3900223AF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79E7997F24E3EF3400223AF8 /* Project object */;
+}
