@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		79B227462613C69200CE3A97 /* CircularLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B227452613C69200CE3A97 /* CircularLoader.swift */; };
+		79B2274B2613E0D400CE3A97 /* CircleFlipper2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B2274A2613E0D400CE3A97 /* CircleFlipper2.swift */; };
 		79E7998B24E3EF3500223AF8 /* ParadoxesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E7998A24E3EF3500223AF8 /* ParadoxesApp.swift */; };
 		79E7998D24E3EF3500223AF8 /* LineFlipper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E7998C24E3EF3500223AF8 /* LineFlipper.swift */; };
 		79E7998F24E3EF3800223AF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79E7998E24E3EF3800223AF8 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		79B227452613C69200CE3A97 /* CircularLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularLoader.swift; sourceTree = "<group>"; };
+		79B2274A2613E0D400CE3A97 /* CircleFlipper2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleFlipper2.swift; sourceTree = "<group>"; };
 		79E7998724E3EF3500223AF8 /* Paradoxes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paradoxes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79E7998A24E3EF3500223AF8 /* ParadoxesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParadoxesApp.swift; sourceTree = "<group>"; };
 		79E7998C24E3EF3500223AF8 /* LineFlipper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineFlipper.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 			children = (
 				79E7998A24E3EF3500223AF8 /* ParadoxesApp.swift */,
 				79E799B924E4252300223AF8 /* CircleFlipper.swift */,
+				79B2274A2613E0D400CE3A97 /* CircleFlipper2.swift */,
 				79E7998C24E3EF3500223AF8 /* LineFlipper.swift */,
 				79E799B524E4245300223AF8 /* ColumnFlipper.swift */,
 				79E799B724E4246C00223AF8 /* Circulito.swift */,
@@ -271,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79B2274B2613E0D400CE3A97 /* CircleFlipper2.swift in Sources */,
 				79E799B824E4246C00223AF8 /* Circulito.swift in Sources */,
 				79E799BA24E4252300223AF8 /* CircleFlipper.swift in Sources */,
 				79E7998D24E3EF3500223AF8 /* LineFlipper.swift in Sources */,
