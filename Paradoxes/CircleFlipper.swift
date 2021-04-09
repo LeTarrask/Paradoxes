@@ -13,15 +13,15 @@ struct CircleFlipper: View {
     @State var fireThree = false
     @State var fireFour = false
     @State var fireFive = false
-    @State var fireSix = false
     @State var fireSeven = false
+    @State var fireSix = false
     @State var fireEight = false
     @State var fireNine = false
     @State var fireTen = false
     @State var fireEleven = false
     @State var fireTwelve = false
 
-    var speed: Double = 0.79
+    var speed: Double //= 0.79
 
     // psicodelia: easeinout com duration speed 0.05
     var foreverAnimation: Animation {
@@ -31,8 +31,9 @@ struct CircleFlipper: View {
 
     var radius: CGFloat
 
-    init(radius: CGFloat) {
+    init(speed: Double, radius: CGFloat) {
         self.radius = radius
+        self.speed = speed
         x0 = radius * cos(0)
         y0 = radius * sin(0)
         x1 = radius * cos(1*multiplier)
@@ -85,14 +86,14 @@ struct CircleFlipper: View {
                             y: fireFive ? y4 : y10)
 
                 Circulito(color: Color.green.opacity(0.5))
-                    .offset(x: fireSeven ? x5 : x11,
-                            y: fireSeven ? y5 : y11)
+                    .offset(x: fireSix ? x5 : x11,
+                            y: fireSix ? y5 : y11)
             }
 
             Group {
                 Circulito(color: .green)
-                    .offset(x: fireSix ? x6 : x0,
-                            y: fireSix ? y6 : y0)
+                    .offset(x: fireSeven ? x6 : x0,
+                            y: fireSeven ? y6 : y0)
 
                 Circulito(color: Color.blue.opacity(0.5))
                     .offset(x: fireEight ? x7 : x1,
@@ -133,10 +134,10 @@ struct CircleFlipper: View {
                 fireFive.toggle()
             }
             withAnimation(foreverAnimation.delay(speed*5)) {
-                fireSeven.toggle()
+                fireSix.toggle()
             }
             withAnimation(foreverAnimation.delay(speed*6)) {
-                fireSix.toggle()
+                fireSeven.toggle()
             }
             withAnimation(foreverAnimation.delay(speed*7)) {
                 fireEight.toggle()
@@ -185,7 +186,7 @@ struct CircleFlipper: View {
 
 struct CircleFlipper_Previews: PreviewProvider {
     static var previews: some View {
-        CircleFlipper(radius: 120.0)
+        CircleFlipper(speed: 0.79, radius: 120)
             .previewDevice("iPhone 8")
             .previewLayout(.device)
     }

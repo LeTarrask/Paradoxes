@@ -11,7 +11,7 @@ import SwiftUI
 struct ParadoxesApp: App {
     var body: some Scene {
         WindowGroup {
-            CircleFlipper(radius: 120.0)
+            ControlView()
         }
     }
 }
